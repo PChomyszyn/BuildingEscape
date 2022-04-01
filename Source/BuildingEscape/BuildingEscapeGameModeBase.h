@@ -14,4 +14,12 @@ class BUILDINGESCAPE_API ABuildingEscapeGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+private:
+	void HandleGameOver(bool bPlayerWon);
+
+protected:
+	UFUNCTION(BlueprintImplementableEvent)
+	void GameOver(bool bPlayerWon);
+
+
 };

@@ -3,3 +3,7 @@
 
 #include "BuildingEscapeGameModeBase.h"
 
+void ABuildingEscapeGameModeBaseHandleGameOver(bool bPlayerWon)
+{
+	//GameOver(bPlayerWon);
+}
